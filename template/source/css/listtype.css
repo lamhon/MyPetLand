@@ -1,0 +1,7 @@
+.header__right-user ul,
+.navbar ul,
+.navbar__area ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,16 @@
+.paw-hover{
+    /* opacity: 0; */
+    display: none;
+}
+
+.paw-hover > i {
+    /* color: var(--color-main); */
+    transform: rotate(45deg);
+}
+
+.hover-paw-btn:hover .paw-hover {
+    /* opacity: 1;
+    transition: ease-in-out 0.2s; */
+    display: inline-block;
+}
+

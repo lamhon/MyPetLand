@@ -1,0 +1,6 @@
+.user__panel  a,
+.navbar__item-link,
+.drop-item a {
+    text-decoration: none;
+    color: var(--color-main);
+}
