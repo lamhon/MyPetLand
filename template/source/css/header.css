@@ -59,6 +59,7 @@ header {
 
 .header_middle-searchbox button:hover{
     background-color: #fff;
+    color: var(--color-main);
 }
 
 .middle-searchbox-input {
