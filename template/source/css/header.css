@@ -36,14 +36,37 @@ header {
     border: none;
     border-right: 1px solid var(--color-main);
     color: var(--color-main);
+    z-index: 1;
+    left: 2.5%;
 }
 
-.header__middle-input {
+.header_middle-searchbox {
+    position: relative;
+    width: 95%;
+    margin: auto;
+}
+
+.header_middle-searchbox button {
+    position: absolute;
+    border: none;
+    font-size: 25px;
+    background-color: transparent;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.header_middle-searchbox button:hover{
+    background-color: #fff;
+}
+
+.middle-searchbox-input {
     outline: none;
     border: none;
-    padding-left: 26%;
+    padding-left: 27%;
     height: 45px;
-    width: 95%;
+    width: 100%;
     border-radius: 25px;
 }
 
