@@ -1,0 +1,86 @@
+.body__subbanner {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.body__subbanner-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.subbanner-item-icon {
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    color: #fff;
+}
+
+.subbanner-item-1 {
+    background-color: rgb(1,147,163);
+}
+
+.subbanner-item-2 {
+    background-color: rgb(255,186,0);
+}
+
+.subbanner-item-3 {
+    background-color: rgb(88,159,57);
+}
+
+.subbanner-item-4 {
+    background-color: rgb(248,34,61);
+}
+
+.subbanner-item-icon:hover {
+    background-color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.subbanner-item-1:hover  {
+    color: rgb(1,147,163);
+    border: 3px solid rgb(1,147,163);
+}
+
+.subbanner-item-2:hover {
+    color: rgb(255,186,0);
+    border: 3px solid rgb(255,186,0);
+}
+
+.subbanner-item-3:hover {
+    color: rgb(88,159,57);
+    border: 3px solid rgb(88,159,57);
+}
+
+.subbanner-item-4:hover {
+    color: rgb(248,34,61);
+    border: 3px solid rgb(248,34,61);
+}
+
+/* .body__subbanner-item > a:hover .subbanner-item-text {
+    visibility: visible;
+} */
+
+.subbanner-item-icon > span > i {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subbanner-item-text {
+    display: block;
+    /* visibility: hidden; */
+    color: #000;
+    position: absolute;
+    top: 103%;
+    width: 140px;
+    left: calc(-70px + 50%);
+    background-color: #fff;
+    border-radius: 8px;
+}

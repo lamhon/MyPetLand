@@ -12,3 +12,8 @@
     background-color: var(--color-main);
     transition: ease-in-out 0.2s;
 }
+
+.circle-btn {
+    font-size: 16px;
+    border-radius: 50%;
+}
