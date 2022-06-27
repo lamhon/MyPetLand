@@ -1,0 +1,23 @@
+/* .carousel-item {
+    background-image: url('/template/source/images/banner.png');
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 700px;
+} */
+
+.body__carousel-item {
+    position: relative;
+    background-image: url('/template/source/images/banner.png');
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.carousel-item-centerbtn {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
