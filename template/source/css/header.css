@@ -4,6 +4,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 999;
 }
 
 .header {
@@ -113,13 +114,12 @@ header {
 }
 
 .right-user-login {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    
     font-size: 16px;
     font-weight: 700;
     margin: auto auto auto 5px;
     width: 115px;
+    z-index: 2;
 }
 
 .user__panel {
@@ -153,6 +153,9 @@ header {
 }
 
 .user__panel-username {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-weight: 600;
 }
 
