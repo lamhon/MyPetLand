@@ -36,3 +36,7 @@ html {
 span i {
     text-align:center;
 }
+
+body {
+    background-image: url('/template/source/images/background.webp');
+}

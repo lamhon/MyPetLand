@@ -197,11 +197,15 @@ header {
 
 .navbar {
     position: fixed;
+    font-size: 15px;
+    text-transform: uppercase;
     left: 50%;
+    top: 145px;
     transform: translate(-50%, 0);
-    margin: 145px auto;
+    margin: auto;
     max-width: 800px;
     padding: 0;
+    z-index: 1;
 }
 
 .navbar__item {

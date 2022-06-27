@@ -1,0 +1,14 @@
+.copyright {
+    display: flex;
+    font-size: 15px;
+    
+}
+
+.copyright > p {
+    display: inline-block;
+    margin: auto;
+}
+
+.copyright a {
+    color: rgb(0, 157, 255);
+}
