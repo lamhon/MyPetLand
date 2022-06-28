@@ -18,14 +18,22 @@
     box-sizing: border-box;
 }
 
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
     color: #000;
 }
 
+button {
+    font: inherit;
+}
+
 html {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -39,4 +47,6 @@ span i {
 
 body {
     background-image: url('/template/source/images/background.webp');
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
