@@ -1,36 +1,3 @@
-.body__category {
-    background-color: #fff;
-    padding: 10px;
-}
-
-.body__category-header {
-    display: inline-flex;
-    color: var(--color-main);
-    position: relative;
-    align-items: center;
-}
-
-.category-header-text {
-    margin-left: 10px;
-}
-
-.category-header-text::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    background-color: var(--color-main);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    transition: all 500ms ease;
-}
-
-.category-header-text:hover::after {
-    /* left: 100%; */
-    left: 0%;
-    width: 100%;
-}
-
 .body__category-container {
     display: flex;
     flex-wrap: wrap;

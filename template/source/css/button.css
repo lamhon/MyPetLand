@@ -1,7 +1,10 @@
 .btn {
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 8px;
-    padding: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .btn-maincolor {
@@ -16,4 +19,20 @@
 .circle-btn {
     font-size: 16px;
     border-radius: 50%;
+}
+
+.btn-fullBackground-main {
+    background-color: var(--color-main);
+}
+
+.btn-fullBackground-main:hover {
+    background-color: rgb(136,154,50);
+}
+
+.btn-fullBackground-red {
+    background-color: rgb(248,34,61);
+}
+
+.btn-fullBackground-red:hover {
+    background-color: rgb(193,27,48);
 }
