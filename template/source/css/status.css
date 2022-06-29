@@ -1,0 +1,7 @@
+.status-online {
+    color: var(--color-main);
+}
+
+.status-offline {
+    color: rgb(169,169,169);
+}

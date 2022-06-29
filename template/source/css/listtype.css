@@ -1,7 +1,9 @@
 .header__right-user ul,
 .navbar ul,
 .navbar__area ul,
-.page ul {
+.page ul,
+.post__link ul,
+.post-info__tag ul {
     list-style-type: none;
     margin: 0;
     padding: 0;

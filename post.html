@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change password</title>
+    <title>POST</title>
     <link rel="stylesheet" href="/template/source/css/base.css">
     <!-- <link rel="stylesheet" href="/template/source/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/template/source/fontawesome-v6.0.0/css/all.min.css">
@@ -176,51 +176,144 @@
             </li>
         </ul>
     </div>
+
     <div class="container-body">
-        <div class="body-content">
-            <h2 class="header-content">Đổi mật khẩu</h2>
-            <form action="" method="" id="form-input-email">
-                <div class="form-input">
-                    <h3>Nhập email của bạn</h3>
-                    <div class="input-field">
+        <div class="container-body-post">
+            <div class="post__link">
+                <ul>
+                    <li><a href="/index.html">My Pet Land</a></li>
+                    <li><a href="#">Chó</a></li>
+                    <li><a href="#">Chó bị bả</a></li>
+                    <li><b>Bạn nào xin liên hệ Bảnk nka</b></li>
+                </ul>
+            </div>
+            <div class="post__content">
+                <div class="carousel">
+                    <div class="post__content-carousel">
+                        <div class="post-carousel-img">
+                            <img id="post-carousel-img-1"
+                                src="/template/source/images/TempPictureForDesign/pet-21-e1598365740876.jpg" alt="">
+                        </div>
+                        <div class="post-carousel-img">
+                            <img id="post-carousel-img-2" src="/template/source/images/TempPictureForDesign/pet-2.jpg"
+                                alt="">
+                        </div>
+                        <div class="post-carousel-img">
+                            <img id="post-carousel-img-3" src="/template/source/images/TempPictureForDesign/pet-3.webp"
+                                alt="">
+                        </div>
+                        <div class="post-carousel-img">
+                            <img id="post-carousel-img-4" src="/template/source/images/TempPictureForDesign/pet-4.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="post-carousel-slick">
+                        <a class="carousel-btn circle-btn" href="#post-carousel-img-1">1</a>
+                        <a class="carousel-btn circle-btn" href="#post-carousel-img-2">2</a>
+                        <a class="carousel-btn circle-btn" href="#post-carousel-img-3">3</a>
+                        <a class="carousel-btn circle-btn" href="#post-carousel-img-4">4</a>
+                    </div>
+                </div>
+                <div class="post__content-info">
+                    <h2>Bạn nào xin liên hệ Bảnk nka</h2>
+                    <div class="post-info__price">
+                        2900000
+                    </div>
+                    <div class="post-info__des">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis eos quibusdam eius aperiam
+                        maxime harum itaque recusandae, laboriosam assumenda officia minima, pariatur laudantium dolor
+                        nisi. Laborum reiciendis accusantium odio perspiciatis!
+                    </div>
+                    <div class="post-info__tag">
+                        <i class="fa-solid fa-tags"></i>
+                        <ul>
+                            <li><a href="#">Chó</a></li>
+                            <li><a href="#">Chó bị dính bả</a></li>
+                            <li><a href="#">Cầy tơ bảy món</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-info__btn">
+                        <button class="btn btn-fullBackground-main">Quan tâm</button>
+                        <button title="Lưu lại" class="post-btn-circle circle-btn"><i
+                                class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="post__content-author">
+                <div class="post__author-left">
+
+                </div>
+                <div class="post__author-right">
+
+                </div>
+
+                <!-- <a href="#">
+                    <img src="/template/source/images/TempPictureForDesign/29251c0249b327e0245200bab326c71bbdcee8b9.webp" alt="">
+                    <div class="post-author-name">
+                        <p>Khánh Bả</p>
+                        <p class="status-online"><i class="fa-solid fa-circle"></i> Đang hoạt động</p>
+                        <p class="status-offline"><i class="fa-solid fa-circle"></i> Hoạt động 10 phút trước</p>
+                    </div>
+                </a>
+                <div class="post__author-info">
+
+                </div> -->
+                <div class="author__card">
+                    <div class="author__card-left">
+                        <div class="card-left-img">
+                            <img src="/template/source/images/TempPictureForDesign/29251c0249b327e0245200bab326c71bbdcee8b9.webp"
+                                alt="">
+                        </div>
+                        <div class="card-left-function">
+                            <div class="card-left-name">
+                                <h3>Khánh Bả</h3>
+                                <i class="fa-solid fa-user"></i>
+                                <!-- <i class="fa-solid fa-users"></i> -->
+                                <!-- Group -->
+                            </div>
+                            <div class="card-left-info">
+                                <p>44 <span>Người theo dõi</span></p>
+                                <p>0 <span>Đang theo dõi</span></p>
+                            </div>
+                            <div class="card-left-button">
+                                <button class="btn btn-fullBackground-main btn-follow"><i class="fa-solid fa-plus"></i> Theo dõi</button>
+                                <button class="btn circle-btn btn-fukkBackground-darkGray"><span><i class="fa-solid fa-ellipsis"></i></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="author__card-right">
                         <table>
                             <tbody>
                                 <tr>
-                                    <td><label for="changepass_email">Email: </label></td>
-                                    <td><input class="form-input-field" id="changepass_email" placeholder="contact@mypetland.com" type="email"></td>
+                                    <td><i class="fa-regular fa-star"></i></td>
+                                    <td>
+                                        <p>Đánh giá:</p>
+                                        <div id="vote">
+                                            3.1
+                                        </div>
+                                        <a href="#"> (6 đánh giá)</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa-regular fa-calendar-days"></i></td>
+                                    <td>
+                                        <p>Ngày tham gia: <span>2/5/2000</span></p> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa-solid fa-location-dot"></i></td>
+                                    <td>
+                                        <p>Địa chỉ: <span>Chung cư bar cue nhang</span></p>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <button type="submit" class="btn btn-fullBackground-main">Tiếp tục</button>
                 </div>
-            </form>
-            <form action="" method="" id="form-change-password">
-                <div class="form-input">
-                    <h3>Thay đổi mật khẩu</h3>
-                    <div class="input-field">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td><label for="changepass_oldpass">Mật khẩu cũ: </label></td>
-                                    <td><input class="form-input-field" type="password" id="changepass_oldpass"></td>
-                                </tr>
-                                <tr>
-                                    <td><label for="changepass_newpass">Mật khẩu mới: </label></td>
-                                    <td><input class="form-input-field" type="password" id="changepass_newpass"></td>
-                                </tr>
-                                <tr>
-                                    <td><label for="changepass_confirmpass">Nhập lại mật khẩu mới:</label></td>
-                                    <td><input class="form-input-field" type="password" id="changepass_confirmpass"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <button type="submit" class="btn btn-fullBackground-main">Đổi mật khẩu</button>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
+
     <div class="footer">
         <div class="footer__container">
             <div class="footer__container-left footer__container-item">
@@ -267,6 +360,7 @@
         <p>© 2022 SorCorp | Bản quyền thuộc về <a href="#">My Pet Land</a></p>
     </div>
     <script src="/template/source/js/jquery.js"></script>
+    <script src="/template/source/js/format-currency.js"></script>
 </body>
 
 </html>
